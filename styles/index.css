@@ -20,6 +20,12 @@ body {
 }
 .stats{
   background-color:rgba(78, 71, 255, 0.1) ;
+  opacity: 100;
+
+}
+
+.no{
+  padding: 20px 10px;
 }
 /* Buttons */
 .btn {
@@ -35,13 +41,13 @@ body {
 }
 
 .btn-primary {
-  background-color: #4f46e5;
+  background-color: #4E47FF;
   color: #fff;
-  transition: background 0.3s ease;
+  font-weight: 100;
 }
 
 .btn-primary:hover {
-  background-color: #4338ca;
+  background-color: #4E47FF;
 }
 
 /* Header */
@@ -55,7 +61,7 @@ header {
 .logo {
   font-size: 28px;
   font-weight: 700;
-  color: #4f46e5;
+  color: #4E47FF;
 }
 
 /* Hero Section */
@@ -127,7 +133,7 @@ header {
 .stat strong {
   display: block;
   font-size: 36px;
-  color: #4f46e5;
+  color: #4E47FF;
 }
 
 /* Testimonials */
@@ -224,7 +230,8 @@ footer {
 footer .logo {
   font-size: 24px;
   margin-bottom: 10px;
-  color: #4f46e5;
+  color: #4E47FF;
+  font-weight: 900;
 }
 
 .footer-links {
