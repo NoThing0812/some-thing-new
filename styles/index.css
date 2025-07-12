@@ -18,11 +18,8 @@ body {
   background-size: cover;
   color: #111827;
 }
-.stats{
-  background-color:rgba(78, 71, 255, 0.1) ;
-  opacity: 100;
 
-}
+
 
 .no{
   padding: 20px 10px;
@@ -43,7 +40,7 @@ body {
 .btn-primary {
   background-color: #4E47FF;
   color: #fff;
-  font-weight: 100;
+  font-weight: 100px;
 }
 
 .btn-primary:hover {
@@ -110,9 +107,14 @@ header {
 
 /* Stats Section */
 .stats {
-  background-color: #eef2ff;
+  background-color: rgba(78, 71, 255, 0.1);
   text-align: center;
   padding: 60px 20px;
+  border-radius: 20px;
+  max-width: 900px;
+  margin: 100px auto;
+
+
 }
 
 .stats h3 {
@@ -124,6 +126,7 @@ header {
   display: flex;
   justify-content: center;
   gap: 80px;
+  
 }
 
 .stat {
@@ -140,6 +143,8 @@ header {
 .testimonials {
   text-align: center;
   padding: 60px 80px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
 }
 
 .testimonials h3 {
@@ -154,7 +159,7 @@ header {
 }
 
 .testimonial {
-  background-color: #f3f4f6;
+  background-color: #F2EDED;
   padding: 30px;
   border-radius: 10px;
   width: 30%;
@@ -245,4 +250,74 @@ footer .logo {
 }
 
 .footer-links a:hover {
-  text-decoration: underline
+  text-decoration: underline}
+
+
+
+
+.contact-2 {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f7ff;
+}
+
+.container {
+  display: flex;
+  padding: 100px;
+  gap: 100px;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.left h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #000;
+  line-height: 1.2;
+}
+
+.right {
+  flex: 1;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #000;
+}
+
+input,
+textarea {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+textarea {
+  resize: none;
+  height: 120px;
+}
+
+button {
+  padding: 15px;
+  color: #fff;
+  background-color: #4E47FF;
+  
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
