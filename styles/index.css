@@ -25,26 +25,58 @@ body {
   padding: 20px 10px;
 }
 /* Buttons */
-.btn {
-  padding: 10px 20px;
-  border-radius: 8px;
-  font-weight: 600;
-  text-decoration: none;
-  display: inline-block;
-  text-align: center;
+
+
+
+.btn{
+display: inline-block;
+  background-color: #4f46e5;
   color: white;
-  background-color: #4E47FF;
-  border: none;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
 }
 
+
+
+
+.btn:hover {
+  background-color: #bb1079;
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(79, 70, 229, 0.3);
+}
+
+
+/* Glow animation on hover */
+.btn:hover {
+  box-shadow: 0 0 8px rgba(70, 229, 168, 0.548),
+              0 0 16px rgba(212, 15, 15, 0.89),
+              0 0 24px rgba(70, 165, 229, 0.185),
+              0 0 32px rgba(167, 163, 158, 0.411);
+  transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
 .btn-primary {
-  background-color: #4E47FF;
+  background-color: #1812c4;
   color: #fff;
   font-weight: 100px;
 }
 
 .btn-primary:hover {
   background-color: #4E47FF;
+  background-color: #10bb43;
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(79, 70, 229, 0.3);
 }
 
 /* Header */
@@ -218,7 +250,7 @@ footer .logo {
 .contact-2 {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f5f7ff;
+  background-color: #D6DDED;
 }
 
 .container {
@@ -281,3 +313,4 @@ button {
   cursor: pointer;
   font-weight: bold;
 }
+
